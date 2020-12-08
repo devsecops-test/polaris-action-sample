@@ -3,6 +3,8 @@ name: "Polaris Scan Action"
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   analyze:
